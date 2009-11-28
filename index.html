@@ -3,7 +3,7 @@
 <!-- Instructions for adapting this boilerplate to a new project: -->
 
 <!-- 1. In the line above starting "Parent-Version:", remove the -->
-<!--    "$Revision: 1.3 $" from around the revision number, -->
+<!--    "$Revision: 1.4 $" from around the revision number, -->
 <!--    leaving just Parent-Version: and the number. -->
 
 <!-- 2. Replace "baz" with the name of your project. -->
@@ -96,6 +96,41 @@ or by looking at
 or similar directories on your system.  A brief summary is available by
 running <tt>baz&nbsp;--help</tt>.</p>-->
 
+<h3>Usage</h3>
+
+<p>Let us suppose one wants to know the value of the elementary charge (i.e.
+the absolute value of the electron charge). One has several ways of finding
+this number:</p>
+<ol>
+	<li>going to a library and look for that constant in a book</li>
+	<li>browsing the web pages to find it</li>
+	<li>asking Dionysus!!</li>
+</ol>
+
+<p>The third way is actually the easiest!</p>
+
+<p>Usually, this constant is denoted by the letter "e" (among engineers) or by
+the letter "q" (among physicists). So, one can ask Dionysus the exact value
+by typing one of the following commands:</p>
+
+<p>> dionysus universal.ddb elementary_charge value
+> dionysus universal.ddb q value
+> dionysus universal.ddb e value</p>  
+
+<p>where "universal.ddb" is a database ASCII file provided along with the
+current version. The value returned is:</p>
+
+<p>1.60217648740e-19</p>
+
+<p>It's REALLY easy like that! And you can ask much more than that to Dionysus!</p>
+
+<h3>Databases in the current version</h3>
+
+The current version of Dionysus provides two databases:
+1) <a href="universal.html">universal.ddb</a>
+which contains the value of 46 well-known universal constants.
+2) <a href="chemistry.html">chemistry.ddb</a>
+which contains the atomic number of 104 chemical elements.
 
 <h3>Mailing lists</h3>
 
@@ -182,7 +217,7 @@ notice, and the copyright notice, are preserved.</p>
 
 <p>Updated:
 <!-- timestamp start -->
-$Date: 2009/11/25 20:19:17 $
+$Date: 2009/11/28 19:06:27 $
 <!-- timestamp end -->
 </p>
 </div>
